@@ -11,6 +11,9 @@ const Footer = () => (
             ><i className="fab fa-facebook-f"></i>
         </a>
 
+
+
+
         <a
             target="_blank" rel="noopener noreferrer"
             className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -40,8 +43,9 @@ const Footer = () => (
         </section>
     </div>
 
-    <div className="text-center text-pink p-2" style={{backgroundColor: "pink"}}>
-        <a className="text-pink"> Elsa</a>
+    <div className="text-center text-white p-2" style={{backgroundColor: 'pink'}}>
+        © {new Date().getFullYear()} 
+        <a className="text-white" > Elsa</a>
     </div>
     </footer>
 );

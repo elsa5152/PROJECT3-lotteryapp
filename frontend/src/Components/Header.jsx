@@ -33,14 +33,14 @@ export default function Header() {
                         <Toolbar>
                             <Link to="/" className='link'>
                                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                                    <img src={process.env.PUBLIC_URL + '/alogo.jpg'} style={{width:"3rem"}} alt="logo"/>
+                                    <img src={process.env.PUBLIC_URL + '/123.jpeg'} style={{width:"3rem"}} alt="logo"/>
                                 </IconButton>
                             </Link>
                             <Typography variant="h5" className={classes.title}>
-                                <Link to="/" className='link'>Lottery</Link>
+                                <Link to="/" className='link'>Lottery App</Link>
                             </Typography>
                             <Link to="/winners" className='link'>
-                                <Button color="inherit">Previous Winners</Button>
+                                <Button color="inherit"> Winners</Button>
                             </Link>
                             <Link to="/tickets" className='link'>
                                 <Button color="inherit">Your Tickets</Button>
