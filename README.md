@@ -32,7 +32,7 @@ Project is created with:
 ### Deployed Links
 
 
--   App: https://lottery-app-1918.netlify.app
+
 
 
 
