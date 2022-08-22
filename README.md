@@ -1,62 +1,38 @@
 # lottery-app
 
-This is a web app, where you can put up lottery draw events as well as participate in them. You can see the upcoming events and the previous draw winners too.
+Everyone is working very hard now. Due to covid sometimes we have to stay at home for a long time and some of the  work has to be done at home. Because of that, We are missing a lot of entertainment. It made our life boring and it’s not motivated to work.
 
-## Technologies
+## Table of Contents
+
+- [Install and Setup](#install-and-setup)
+- [Technology](#technology)
+- [DEMO](#demo)
+- [Code](#github-code)
+- [Deployed Links](#deployed-links)
+
+## Install and Setup
+```
+npm install
+
+```
+
+## Technology
 
 Project is created with:
 
--   Reactjs, Material UI (Frontend)
+-   Reactjs
 -   Nodejs, Express (Backend)
 -   Mongodb (Database)
 
-## Directory Structure
 
-### Frontend
+## Code
 
--   src
-    -   components: Contains various react components which are to be used in the project
-    -   index.js: entry point of the react app
--   public: contains all the static assets like html, logos and styles file which are to be served.
-
-### Backend
-
--   db/mongoose.js: Configures the database.
--   models: Defines different mongoose models.
--   routes: Defines routers for the main express app.
--   app.js: Instantiates and configures the main app.
+-   Github: https://github.com/elsa5152/PROJECT3-lotteryapp.git
 
 ### Deployed Links
 
--   Backend: https://lottery-app-1918.herokuapp.com
--   Frontend: https://lottery-app-1918.netlify.app
 
-## Setup
+-   App: https://lottery-app-1918.netlify.app
 
-To run this project, install it locally using npm and yarn, respectively.
 
-### Backend (assuming in the root directory)
 
-Make a .env file and give a database uri as DATABASE_URL.
-Make sure your database is running properly.
-
-Then
-For development
-
-```
-$ cd backend
-$ npm install
-$ node app.js
-```
-
-Default port has been set to 8080.
-
-### Frontend (assuming in the root directory)
-
-```
-$ cd frontend
-$ npm install
-$ npm start
-```
-
-Default port has been set to 3000
