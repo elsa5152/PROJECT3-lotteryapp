@@ -1,0 +1,46 @@
+footer {
+    width: 86%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0 7%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topic {
+    margin: 1% 7% 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.intro {
+    flex-grow: 1;
+    margin: 4% 7%;
+    text-align: center;
+    justify-content: center;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.float {
+    float: center;
+    display: flex;
+}
