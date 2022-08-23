@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://lottery-app-1918.herokuapp.com"
+      "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
     }
   ],
   "paths": {
@@ -29,13 +29,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -57,7 +57,7 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
@@ -92,13 +92,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -120,13 +120,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -148,13 +148,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -168,13 +168,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -210,13 +210,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -238,13 +238,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     },
@@ -266,13 +266,13 @@
         },
         "servers": [
           {
-            "url": "https://lottery-app-1918.herokuapp.com"
+            "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
           }
         ]
       },
       "servers": [
         {
-          "url": "https://lottery-app-1918.herokuapp.com"
+          "url": "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority"
         }
       ]
     }
