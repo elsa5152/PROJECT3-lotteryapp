@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 
-const dbURL = "mongodb+srv://admin:ljq5152@cluster0.fzdiqr1.mongodb.net/lotterydb?retryWrites=true&w=majority";
+const dbURL = "mongodb://127.0.0.1:27017/final-project-test";
 
 module.exports = function(app){
 
