@@ -10,7 +10,6 @@ async function generateWinner( req, res) {
     console.log(moment().format('LT'));
     Event.find({resultAnnounced: false, date: {$lte: moment().format('L')}}, function(err,result) {
 
-        //console.log(result);
         const arr=[];
         if(result.length) {result.forEach((event)=> { 
             
@@ -45,7 +44,7 @@ async function generateWinner( req, res) {
 
 async function getWinner( req, res){
 
-    // gives you a maximum of 7 winners
+ 
     await Winner.find({}).limit(7)
     .exec( function(err, result) {
         return res.send(result);

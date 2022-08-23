@@ -1,8 +1,10 @@
-const mongoose = require('mongoose');
 const {eventSchema} = require('./Event')
+
+const mongoose = require('mongoose');
+
+
 const {userSchema} = require('./User')
 
-//Schema for Ticket model
 const winnerSchema = new mongoose.Schema(
     {
         user: [userSchema],

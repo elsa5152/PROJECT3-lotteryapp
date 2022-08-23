@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//Schema for Ticket model
+
 const ticketSchema = new mongoose.Schema(
   {
     mobile: String

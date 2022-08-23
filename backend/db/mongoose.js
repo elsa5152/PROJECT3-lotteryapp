@@ -5,7 +5,7 @@ const dbURL = "mongodb://127.0.0.1:27017/final-project-test";
 
 module.exports = function(app){
 
-  //Connect to the database URL using mongoose.
+  //Connect  mongoose.
   mongoose.connect(dbURL, {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -18,14 +18,14 @@ module.exports = function(app){
 
   mongoose.connection.once('open', function(){
     console.log("Mongoose default connection is open to ", dbURL)
-    app.emit('ready'); // Event emitter. It triggers starting of the server.
+    app.emit('ready'); 
   })
 
   mongoose.connection.on('disconnected', function(){
       console.log("Mongoose connection is disconnected");
   });
 
-  //Graceful closing of connection in case of process exit
+
   process.on('SIGINT', function(){
       mongoose.connection.close(function(){
           console.log("Mongoose default connection is disconnected due to application termination");
